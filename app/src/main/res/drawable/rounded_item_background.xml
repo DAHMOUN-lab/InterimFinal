@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#00CCA8"/> <!-- Ajustez la couleur de fond au besoin -->
+    <corners android:radius="00dp"/> <!-- Ajustez le rayon pour contrôler la courbure des coins -->
+</shape>
+
