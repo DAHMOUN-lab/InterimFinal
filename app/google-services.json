@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749272814493",
+    "project_id": "interim-38ceb",
+    "storage_bucket": "interim-38ceb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749272814493:android:dfc29979843aec33e21574",
+        "android_client_info": {
+          "package_name": "com.example.interim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuDdTcj6IVUHfyaV6K0j0aiI-XyzY_KBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

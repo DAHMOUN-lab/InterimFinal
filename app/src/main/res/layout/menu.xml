@@ -45,9 +45,8 @@
             android:layout_height="1dp"
             android:background="#000000" />
 
-
         <TextView
-            android:id="@+id/tvMesCandidatures"
+            android:id="@+id/tvCandacc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
@@ -57,7 +56,7 @@
             android:focusable="true"
             android:gravity="center_vertical"
             android:padding="16dp"
-            android:text="Mes candidatures"
+            android:text="Candidatures Acceptées"
             android:textSize="18sp" />
 
         <View
@@ -67,17 +66,36 @@
 
 
         <TextView
-            android:id="@+id/tvFavoris"
+            android:id="@+id/tvMesCandRefu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
-            android:drawableStart="@drawable/favoris"
+            android:drawableStart="@drawable/candi"
             android:drawablePadding="8dp"
             android:focusable="true"
             android:gravity="center_vertical"
             android:padding="16dp"
-            android:text="Favoris"
+            android:text="Candidatures Refusées"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvMesCandEncours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableStart="@drawable/candi"
+            android:drawablePadding="8dp"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="Candidatures en cours"
             android:textSize="18sp" />
 
         <View
@@ -87,17 +105,17 @@
 
 
         <TextView
-            android:id="@+id/tvAides"
+            android:id="@+id/tvdeco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
-            android:drawableStart="@drawable/aide"
+            android:drawableStart="@drawable/deco"
             android:drawablePadding="8dp"
             android:focusable="true"
             android:gravity="center_vertical"
             android:padding="16dp"
-            android:text="Aides"
+            android:text="Déconnexion"
             android:textSize="18sp" />
 
         <View

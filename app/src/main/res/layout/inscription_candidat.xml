@@ -68,6 +68,7 @@
         android:drawablePadding="10dp"/>
 
     <Button
+        android:id="@+id/inscription_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="S'enregistrer"
@@ -81,6 +82,7 @@
         android:textSize="20sp"
         android:layout_marginTop="50dp"/>
     <Button
+        android:id="@+id/loginbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Se connecter"

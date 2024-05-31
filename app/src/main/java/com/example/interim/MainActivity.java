@@ -2,23 +2,26 @@ package com.example.interim;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ListView;
+import android.widget.Button;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView missionList;
+    private Button voir_les_offres;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        missionList = findViewById(R.id.missionList);
-        List<Mission> missions = new ArrayList<>();
 
+
+        voir_les_offres = findViewById(R.id.voir_offres);
+        voir_les_offres.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, RechercheActivity.class);
+            startActivity(intent);
+        });
 
     }
 }
